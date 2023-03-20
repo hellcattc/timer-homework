@@ -1,0 +1,28 @@
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+}
+
+.button-container {
+  display: flex;
+  place-content: center;
+  margin: 0 auto;
+}
+
+button {
+  width: 150px;
+  padding: 15px 40px;
+  font-size: 20px;
+  margin: 30px 20px;
+  align-self: center;
+  border: none;
+  background-color: aqua;
+}
+
+p {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 40px;
+}
